@@ -1,0 +1,136 @@
+#p3L1{
+  position: absolute;
+  height: 150px;
+  width: auto;
+  left:500px;
+  top:50px;
+  margin: auto;
+  z-index:1;
+  opacity: 1;
+  transition: opacity 1s;
+}
+#p3L2{
+  position: absolute;
+  height: 190px;
+  width: auto;
+  left:480px;
+  top:150px;
+  margin: auto;
+  z-index:1;
+  opacity: 1;
+  transition: opacity 1s;
+}
+#p3L3{
+  position: absolute;
+  height: 190px;
+  width: auto;
+  left:275px;
+  top:300px;
+  margin: auto;
+  z-index:1;
+  opacity: 1;
+  transition: opacity 1s;
+}
+#p3L4{
+  position: absolute;
+  height: 190px;
+  width: auto;
+  left:175px;
+  top:480px;
+  margin: auto;
+  z-index:1;
+  opacity: 1;
+  transition: opacity 1s;
+}
+#l1d{
+  height: 90px;
+  width: 70px;
+  position: absolute;
+  left:540px;
+  top:65px;
+  margin: auto;
+  z-index: 100;
+}
+#l2d{
+  height: 140px;
+  width: 70px;
+  position: absolute;
+  left:540px;
+  top:180px;
+  margin: auto;
+  z-index: 100;
+}
+#l3d{
+  height: 140px;
+  width: 70px;
+  position: absolute;
+  left:335px;
+  top:350px;
+  margin: auto;
+  z-index: 100;
+}
+#l4d{
+  height: 140px;
+  width: 70px;
+  position: absolute;
+  left:235px;
+  top:520px;
+  margin: auto;
+  z-index: 100;
+}
+#building{
+  position:absolute;
+  left:0;
+  top:0;
+  margin:auto;
+  z-index: 10;
+}
+#slLight{
+  position: absolute;
+  left:0;
+  top:0;
+  margin:auto;
+  z-index: 11;
+  opacity:0;
+}
+#closedD{
+  height: 140px;
+  width: auto;
+  position:absolute;
+  left:370px;
+  top:752px;
+  margin: auto;
+  z-index: 200;
+  opacity:1;
+}
+#dcd{
+  height: 135px;
+  width: 53px;
+  position:absolute;
+  left:370px;
+  top:752px;
+  margin: auto;
+  z-index: 201;
+}
+#openD{
+  height: 150px;
+  width: auto;
+  position:absolute;
+  left:383px;
+  top:752px;
+  margin: auto;
+  z-index: 200;
+  opacity: 0;
+}
+#animal{
+  height: 40px;
+  width: auto;
+  position:absolute;
+  left:380px;
+  top:770px;
+  margin:auto;
+  z-index: 50;
+  transform: rotate(-60deg);
+  opacity: 0;
+  transition: left 1s, z-index 1s, transform 2s;
+}
